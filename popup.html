@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Mormon Verse</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body style="background-image: url('BG.png'); background-size: cover;">
+    <header>
+        <img src="MormonLogo.png" alt="Book of Mormon" width="50px" style="display: block; margin: 0 auto;">
+        <h1>Daily Mormon Verse</h1>
+    </header>
+
+    <section id="verse-section">
+        <h2 id="date" style="color: white;">Verse for today</h2> <!-- Date will load dynamically in white -->
+        <h3 id="verse"></h3> <!-- Verse loads automatically -->
+        <p id="excerpt"></p> <!-- Excerpt loads automatically -->
+    </section>
+
+    <footer>
+        <button id="refresh">Get Another Verse</button>
+    </footer>
+
+    <script src="popup.js"></script>
+</body>
+</html>
